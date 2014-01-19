@@ -1,0 +1,13 @@
+#ifndef DONOTHING_GLOBAL_H
+#define DONOTHING_GLOBAL_H
+
+#include <QtGlobal>
+
+#if defined(DONOTHING_LIBRARY)
+#  define DONOTHINGSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define DONOTHINGSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // DONOTHING_GLOBAL_H
+

@@ -1,0 +1,9 @@
+<plugin name=\"DoNothing\" version=\"0.0.1\" compatVersion=\"0.0.1\">
+    <vendor>WWWLtd</vendor>
+    <copyright></copyright>
+    <license>	</license>
+    <description></description>
+    <url></url>
+    $$dependencyList
+</plugin>
+
